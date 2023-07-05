@@ -1,0 +1,24 @@
+
+
+/* NavBar.css */
+
+.my-custom-navbar {
+  background-color: #d4c09eb7;
+  box-shadow: 0 0 10px rgba(236, 18, 18, 0.1);
+}
+
+.my-custom-navbar .navbar-brand {
+  font-weight: bolder;
+}
+
+.my-custom-navbar .nav-link {
+  color: #000000;
+}
+
+.my-custom-navbar .nav-link:hover {
+  color: #007bff;
+}
+.active{
+  background-color: rgb(138, 138, 154);
+ 
+}

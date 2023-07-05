@@ -1,0 +1,53 @@
+.user-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* This will make sure the container takes at least the full viewport height */
+  }
+  
+  .user-profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .user-profile-card.card {
+    background-color: rgba(185, 173, 148, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 90%;
+  }
+  .custom-tab {
+    /* Add your custom styles for the tabs here */
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    justify-content: right;
+    
+  }
+ 
+ 
+
+ .dropdown-wrapper{
+    justify-content: right;
+ 
+    margin: 3px;
+    width: 100%;
+ }
+ .dropdown-no-arrow::after {
+    display: none !important;
+  }
+  
+  .dropdown-no-arrow {
+   
+    background-color: transparent;
+    color: inherit;
+  }
+  .custom-dropdown-button.btn-primary {
+    background-color: #f0f0f0 !important;
+    border-color: #ccc !important;
+    color: #333 !important;
+  }

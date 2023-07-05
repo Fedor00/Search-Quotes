@@ -1,0 +1,36 @@
+.fire-button {
+  background-color: transparent;
+  color: #61dafb;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 1s;
+  overflow: hidden;
+  position: relative;
+}
+
+.fire-button span {
+  position: relative;
+  z-index: 1;
+}
+
+.fire-button:hover {
+  animation: squishy 1s infinite;
+}
+
+@keyframes squishy {
+  0%, 100% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1.1, 0.9);
+  }
+  50% {
+    transform: scale(0.9, 1.1);
+  }
+  75% {
+    transform: scale(1.05, 0.95);
+  }
+}

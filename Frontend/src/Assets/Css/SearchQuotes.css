@@ -1,0 +1,11 @@
+.quotes-container{
+    
+    width: 100%;
+    
+}
+.all-quotes{
+    margin: 2%;
+    background-color: rgba(185, 173, 148, 0.5);
+    padding: 20px;
+    border-radius: 30px;
+}
